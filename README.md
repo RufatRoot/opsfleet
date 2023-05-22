@@ -30,7 +30,7 @@ Create a Kubernetes service account and associate it with the IAM role by creati
     annotations:
         eks.amazonaws.com/role-arn: arn:aws:iam::YOUR_ACCOUNT_ID:role/eks-cluster-role # Replace with your AWS account ID and role name
 
-    Create a Kubernetes manifest file (e.g., pod.yaml) with the following content:
+Create a Kubernetes manifest file (e.g., pod.yaml) with the following content:
 
         apiVersion: v1
         kind: Pod
